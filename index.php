@@ -29,10 +29,10 @@
     
 
 <?php
- $dbhost="localhost:3306";
- $dbuser="root";
- $dbpass="";
- $db="student";
+ $dbhost="btyildnz7devh3sfljsg-mysql.services.clever-cloud.com:3306";
+ $dbuser="ux4ypgedzepexlmh";
+ $dbpass="2ZB9ZKYpCwaetDiw9n0E";
+ $db="btyildnz7devh3sfljsg";
 $con=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 if( $_GET["id"] ) {
     $id=$_GET['id'];
