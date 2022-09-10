@@ -99,7 +99,7 @@ Telephone :<br><span class="second">'.$row["Telephone"].'</span></p>
 statut :<br><span class="second">'.$row["Telephone"].'</span></p>
 
 <p class="text-primary first">
-Telephone pere/mere :<br><span class="second">'.$row["Telephone pere/mere"].'</span></p>
+Telephone pere/mere :<br><span class="second">'.$row["Telephone_pere_mere"].'</span></p>
 
 
 <p class="text-primary first">
