@@ -36,6 +36,7 @@
 $con=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 if( $_GET["id"] ) {
     $id=$_GET['id'];
+    echo $id;
 /*
     "	
     Pere	
