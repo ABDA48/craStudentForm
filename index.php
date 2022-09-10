@@ -62,7 +62,7 @@ while($row=mysqli_fetch_array($res,MYSQLI_ASSOC)){
 Nom :<br><span class="second">'.$row["Nom"].'</span></p>	
 
 <p class="text-primary first">
-Date de naissance :<br><span class="second">'.$row["Nom"].'</span></p>
+Date de naissance :<br><span class="second">'.$row["Date"].'</span></p>
 
 <p class="text-primary first">
 Email :<br><span class="second">'.$row["Nom"].'</span></p>
@@ -94,6 +94,9 @@ Prenom :<br><span class="second">'.$row["Prenom"].'</span></p>
 Origine :<br><span class="second">'.$row["Origine"].'</span></p>
 
 <p class="text-primary first">
+Adress :<br><span class="second">'.$row["Adress"].'</span></p>
+
+<p class="text-primary first">
 Telephone :<br><span class="second">'.$row["Telephone"].'</span></p>
 
 <p class="text-primary first">
@@ -103,12 +106,9 @@ statut :<br><span class="second">'.$row["Telephone"].'</span></p>
 Telephone pere/mere :<br><span class="second">'.$row["Telephone_pere_mere"].'</span></p>
 
 
-<p class="text-primary first">
-category :<br><span class="second">'.$row["Telephone"].'</span></p>
-
 
 <p class="text-primary first">
-Bacc :<br><span class="second">'.$row["Telephone"].'</span></p>
+Bacc :<br><span class="second">'.$row["Bacc"].'</span></p>
 
 <p class="text-primary first">
 filliere :<br><span class="second">'.$row["Filiere"].'</span></p>
