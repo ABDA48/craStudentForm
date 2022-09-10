@@ -35,7 +35,7 @@
  $db="btyildnz7devh3sfljsg";
 $con=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 if( $_GET["id"] ) {
-    $id=$_GET['Nom'];
+    $id=$_GET['id'];
     echo $id;
 /*
     "	
@@ -51,7 +51,7 @@ if( $_GET["id"] ) {
     BACC"
     */
  }
-$res=mysqli_query($con,"SELECT * FROM university where id=".$id);
+$res=mysqli_query($con,"SELECT * FROM university where idenroll=".$id);
 while($row=mysqli_fetch_array($res,MYSQLI_ASSOC)){
     echo '<div class="container" style="margin-left:100px;margin-right:100px;">
    <div class="image"> <img width="150px" height="150px" src="avatar.jpg"/></div>
