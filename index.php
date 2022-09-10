@@ -13,11 +13,9 @@
 .second{
     color: black;
 }
-.image{
-     
-    padding-left: 300px;
-}
+
     </style>
+ <!--   
 <form method="GET" action="index.php">
         <div>
             <label>Id</label><br>
@@ -26,7 +24,7 @@
      
         <input type="submit" value ="Submit">
     </form>
-    
+-->
 
 <?php
  $dbhost="btyildnz7devh3sfljsg-mysql.services.clever-cloud.com:3306";
@@ -53,65 +51,65 @@ if( $_GET["id"] ) {
  }
 $res=mysqli_query($con,"SELECT * FROM university where idenroll=".$id);
 while($row=mysqli_fetch_array($res,MYSQLI_ASSOC)){
-    echo '<div class="container" style="margin-left:100px;margin-right:100px;">
-   <div class="image"> <img width="150px" height="150px" src="avatar.jpg"/></div>
+    echo '<div class="container" style="width:70%;border:solid black 1px;">
+   <div class="image"> <img width="200px" height="150px" src="avatar.jpg"/></div>
 <div class="row" style="margin: 20px;">
     <div class="col-sm-6">
 
-    <p class="text-primary first">
-Nom :<br><span class="second">'.$row["Nom"].'</span></p>	
+    <div class="text-primary first">
+Nom :<br><span class="second">'.$row["Nom"].'</span></div>	
 
-<p class="text-primary first">
-Date de naissance :<br><span class="second">'.$row["Date"].'</span></p>
+<div class="text-primary first">
+Date de naissance :<br><span class="second">'.$row["Date"].'</span></div>
 
-<p class="text-primary first">
-Email :<br><span class="second">'.$row["Nom"].'</span></p>
+<div class="text-primary first">
+Email :<br><span class="second">'.$row["Nom"].'</span></div>
 
-<p class="text-primary first">
-Pere :<br><span class="second">'.$row["Pere"].'</span></p>
+<div class="text-primary first">
+Pere :<br><span class="second">'.$row["Pere"].'</span></div>
 
-<p class="text-primary first">
-Mere :<br><span class="second">'.$row["Mere"].'</span></p>
+<div class="text-primary first">
+Mere :<br><span class="second">'.$row["Mere"].'</span></div>
 
-<p class="text-primary first">
-Sexe :<br><span class="second">'.$row["Mere"].'</span></p>
+<div class="text-primary first">
+Sexe :<br><span class="second">'.$row["Mere"].'</span></div>
 
-<p class="text-primary first">
-Institution :<br><span class="second">'.$row["Institution"].'</span></p>
+<div class="text-primary first">
+Institution :<br><span class="second">'.$row["Institution"].'</span></div>
 
-<p class="text-primary first">
-Batch :<br><span class="second">'.$row["Batch"].'</span></p>
+<div class="text-primary first">
+Batch :<br><span class="second">'.$row["Batch"].'</span></div>
 
            
 	
     </div>
     <div class="col-sm-6">
     
-<p class="text-primary first">
-Prenom :<br><span class="second">'.$row["Prenom"].'</span></p>
+<div class="text-primary first">
+Prenom :<br><span class="second">'.$row["Prenom"].'</span></div>
 
-<p class="text-primary first">
-Origine :<br><span class="second">'.$row["Origine"].'</span></p>
+<div class="text-primary first">
+Origine :<br><span class="second">'.$row["Origine"].'</span></div>
 
-<p class="text-primary first">
-Adress :<br><span class="second">'.$row["Adress"].'</span></p>
+<div class="text-primary first">
+Adress :<br><span class="second">'.$row["Adress"].'</span></div>
 
-<p class="text-primary first">
-Telephone :<br><span class="second">'.$row["Telephone"].'</span></p>
+<div class="text-primary first">
+Telephone :<br><span class="second">'.$row["Telephone"].'</span></div>
 
-<p class="text-primary first">
-statut :<br><span class="second">'.$row["Telephone"].'</span></p>
+<div class="text-primary first">
+statut :<br><span class="second">'.$row["Telephone"].'</span></div>
 
-<p class="text-primary first">
-Telephone pere/mere :<br><span class="second">'.$row["Telephone_pere_mere"].'</span></p>
+<div class="text-primary first">
+Telephone pere/mere :<br><span class="second">'.$row["Telephone_pere_mere"].'</span></div>
 
 
 
-<p class="text-primary first">
-Bacc :<br><span class="second">'.$row["Bacc"].'</span></p>
+<div class="text-primary first">
+Bacc :<br><span class="second">'.$row["Bacc"].'</span></div>
 
-<p class="text-primary first">
-filliere :<br><span class="second">'.$row["Filiere"].'</span></p>
+<div class="text-primary first">
+filliere :<br><span class="second">'.$row["Filiere"].'</span></div>
 
     </div>
   
