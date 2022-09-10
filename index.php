@@ -35,7 +35,7 @@
  $db="btyildnz7devh3sfljsg";
 $con=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 if( $_GET["id"] ) {
-    $id=$_GET['id'];
+    $id=$_GET['Nom'];
     echo $id;
 /*
     "	
