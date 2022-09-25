@@ -53,7 +53,7 @@ if( $_GET["id"] ) {
 $res=mysqli_query($con,"SELECT * FROM university where idenroll=".$id);
 while($row=mysqli_fetch_array($res,MYSQLI_ASSOC)){
     echo '<div class="container" style="width:70%;border:solid black 1px;">
-   <div class="image"> <img width="200px" height="150px" src="http://drive.google.com/uc?export=view&id=1CIY91abyO1cB3G0tbBgV76O1mGD2Akvs"/></div>
+   <div class="image"> <img width="200px" height="150px" src="'.$row["Photo"].'"/></div>
 <div class="row" style="margin: 20px;">
     <div class="col-sm-6">
 
