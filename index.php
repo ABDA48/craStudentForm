@@ -64,7 +64,7 @@ Nom :<br><span class="second">'.$row["Nom"].'</span></div>
 Date de naissance :<br><span class="second">'.$row["Date"].'</span></div>
 
 <div class="text-primary first">
-Email :<br><span class="second">'.$row["Nom"].'</span></div>
+Email :<br><span class="second">'.$row["email"].'</span></div>
 
 <div class="text-primary first">
 Pere :<br><span class="second">'.$row["Pere"].'</span></div>
@@ -73,7 +73,7 @@ Pere :<br><span class="second">'.$row["Pere"].'</span></div>
 Mere :<br><span class="second">'.$row["Mere"].'</span></div>
 
 <div class="text-primary first">
-Sexe :<br><span class="second">'.$row["Mere"].'</span></div>
+Sexe :<br><span class="second">'.$row["Sexe"].'</span></div>
 
 <div class="text-primary first">
 Institution :<br><span class="second">'.$row["Institution"].'</span></div>
